@@ -19,9 +19,9 @@
 
 <body>
     <header id="home">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light py-3">
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light py-3">
             <div class="container">
-                <a class="navbar-brand" href="#">Javits Convention Bur</a>
+                <a class="navbar-brand fw-bold" href="#">Javits Convention Bur</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -171,7 +171,7 @@
         <section class="container my-5" id="package">
             <h2 class="py-5 text-center fs-1 mb-5">Our Package</h2>
             <div class="row">
-                <div class="col p-3">
+                <div class="col-lg-3 p-3 col-sm-12 package-col">
                     <h2>$300</h2>
                     <h3>Business fair</h3>
                     <p>For most businesses event like book fair, craft fair.</p>
@@ -182,7 +182,7 @@
                     <p><span><i class="fas fa-check pe-2"></i></span>Per day bill</p>
                     <button class="rounded-pill px-5 py-2 border-0">Choose plan</button>
                 </div>
-                <div class="col p-3">
+                <div class="col-lg-3 p-3 col-sm-12 package-col">
                     <h2>$500</h2>
                     <h3>wedding basic</h3>
                     <p>For weddings with basic plan and limited item</p>
@@ -193,7 +193,7 @@
                     <p><span><i class="fas fa-check pe-2"></i></span>Billed as shift</p>
                     <button class="rounded-pill px-5 py-2 border-0">Choose plan</button>
                 </div>
-                <div class="col bg-dark text-light rounded-3 p-2 shadow-lg premium-plans">
+                <div class="col-lg-3 bg-dark text-light rounded-3 p-2 shadow-lg premium-plans col-sm-12 package-col">
                     <span class="bg-warning px-2 rounded-pill hot text-dark">Hot</span>
                     <h2>$800</h2>
                     <h3>Wedding plus</h3>
@@ -205,7 +205,7 @@
                     <p><span><i class="fas fa-check pe-2"></i></span>pay as plan</p>
                     <button class="rounded-pill px-5 py-2 border-0">Choose plan</button>
                 </div>
-                <div class="col p-3">
+                <div class="col-lg-3 p-3 col-sm-12 package-col">
                     <h2>$1200</h2>
                     <h3>Corporate event</h3>
                     <p>For most corporate business events plans and unlimited items</p>
@@ -219,11 +219,11 @@
             </div>
         </section>
         <!-- Accordion section -->
-        <section class="container">
+        <section class="container accordion-section">
             <h2 class="text-center pt-5">Frequently Asked Questions</h2>
-            <div class="d-flex flex-row-reverse justify-content-between my-5 ">
-                <div class="">
-                    <img src="img/images/people.png" alt="" class="ps-5">
+            <div class="d-lg-flex flex-row-reverse justify-content-between my-5">
+                <div class="mb-5 ">
+                    <img src="img/images/people.png" alt="" class="ps-lg-5">
                 </div>
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
@@ -321,7 +321,7 @@
             </div>
         </section>
         <!-- about section -->
-        <section class="container my-5 d-flex justify-content-between align-items-end" id="about">
+        <section class="container my-5 d-lg-flex justify-content-between align-items-end" id="about">
             <div class="d-flex mt-5">
                 <div class="pe-5">
                     <h3>About Us</h3>
@@ -345,16 +345,16 @@
                 </div>
             </div>
             <div>
-                <div>
-                    <h2>Abacus Convention Center</h2>
+                <div class="mt-5">
+                    <h2>Javits Convention Bur</h2>
                     <P><b>Address:</b> 45 Rockefeller Plaza, New York, NY 10111, United States</P>
                     <P><b>Phone:</b> +1 212-757-5640</P>
                     <span>
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-youtube"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab text-dark pe-3 fa-facebook-f"></i></a>
+                        <a href=""><i class="fab text-dark pe-3 fa-youtube"></i></a>
+                        <a href=""><i class="fab text-dark pe-3 fa-linkedin-in"></i></a>
+                        <a href=""><i class="fab text-dark pe-3 fa-instagram"></i></a>
+                        <a href=""><i class="fab text-dark pe-3 fa-twitter"></i></a>
                     </span>
                 </div>
             </div>
@@ -367,12 +367,16 @@
                 <p>Get the App</p>
                 <div class="d-flex flex-column">
                     <div class="badge text-wrap" style="width: 6rem;">
-                        <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener"><span><i
-                                    class="fab fa-apple"></i></span><small>Download on the</small> App Store</a>
+                        <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener"
+                            class="text-decoration-none text-light"><span><i
+                                    class="fab text-light p-1 fs-6 fa-apple"></i></span><small>Download on the</small>
+                            App Store</a>
                     </div>
                     <div class="badge text-wrap" style="width: 6rem;">
-                        <a href="https://play.google.com/store/apps" target="_blank" rel="noopener"><span><i
-                                    class="fab fa-google-play"></i></span><small>GET IT ON</small> Google Play</a>
+                        <a href="https://play.google.com/store/apps" target="_blank" rel="noopener"
+                            class="text-decoration-none text-light"><span><i
+                                    class="fab text-light p-1 fs-6 fa-google-play"></i></span><small>GET IT ON</small>
+                            Google Play</a>
                     </div>
                 </div>
             </div>

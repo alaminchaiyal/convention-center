@@ -7,19 +7,26 @@
 	object-fit: cover;
 	opacity: 0.4;
 }
-
-#package .premium-plans{
-	position: relative;
-	top: -20px;
-	left: 0;
-	right: 0;
+@media(min-width: 960px){
+	#package .premium-plans{
+		position: relative;
+		top: -50px;
+		left: 0;
+		right: 0;
+	}
+}
+@media (max-width: 720px){
+	.accordion-section img{
+		width: 100%;
+	}	
 }
 #package .hot {
 	position: relative;
 	top: -20px;
-	left: 260px;
+	left: 230px;
 	right: 0;
 }
-a{
-	text-decoration: none;
+#package .package-col{
+	width: 292px;
+	height: 435px;
 }
